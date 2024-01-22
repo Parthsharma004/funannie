@@ -20,10 +20,10 @@ def track_markup(_, videoid, user_id, channel, fplay):
         ],
         [
             InlineKeyboardButton(
-                text="💝ᴍᴀɪɴᴛᴀɪɴᴇʀ[ᴅɪʟ]💝", url=f"tg://openmessage?user_id={OWNER_ID}",
+                text="💝ᴍᴀɪɴᴛᴀɪɴᴇʀ[ᴘᴀʀᴛʜ]💝", url=f"tg://openmessage?user_id={OWNER_ID}",
             ),
             InlineKeyboardButton(
-                text="🥰sᴜᴩᴩᴏʀᴛ[ᴀɪᴍ]🥰", url=SUPPORT_CHAT,
+                text="🥰sᴜᴩᴩᴏʀᴛ[ᴀɴɴɪᴇ]🥰", url=SUPPORT_CHAT,
             )
         ],
         [
@@ -96,10 +96,10 @@ def stream_markup(_, chat_id):
         ],
         [
             InlineKeyboardButton(
-                text="💝ᴍᴀɪɴᴛᴀɪɴᴇʀ[ᴅɪʟ]💝", url=f"tg://openmessage?user_id={OWNER_ID}",
+                text="💝ᴍᴀɪɴᴛᴀɪɴᴇʀ[ᴘᴀʀᴛʜ]💝", url=f"tg://openmessage?user_id={OWNER_ID}",
             ),
             InlineKeyboardButton(
-                text="🥰sᴜᴩᴩᴏʀᴛ[ᴀɪᴍ]🥰", url=SUPPORT_CHAT,
+                text="🥰sᴜᴩᴩᴏʀᴛ[ᴀɴɴɪᴇ]🥰", url=SUPPORT_CHAT,
             )
         ],
         [InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")],
@@ -112,11 +112,11 @@ def playlist_markup(_, videoid, user_id, ptype, channel, fplay):
         [
             InlineKeyboardButton(
                 text=_["P_B_1"],
-                callback_data=f"DilPlaylists {videoid}|{user_id}|{ptype}|a|{channel}|{fplay}",
+                callback_data=f"AnniePlaylists {videoid}|{user_id}|{ptype}|a|{channel}|{fplay}",
             ),
             InlineKeyboardButton(
                 text=_["P_B_2"],
-                callback_data=f"DilPlaylists {videoid}|{user_id}|{ptype}|v|{channel}|{fplay}",
+                callback_data=f"AnniePlaylists {videoid}|{user_id}|{ptype}|v|{channel}|{fplay}",
             ),
         ],
         [
